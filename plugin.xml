@@ -93,6 +93,8 @@ xmlns:rim="http://www.blackberry.com/ns/widgets"
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
 
+        <framework src="src/android/cwac-cam2/cam2/build.gradle" custom="true" type="gradleReference" />
+
         <source-file src="src/android/Capture.java" target-dir="src/org/apache/cordova/mediacapture" />
         <source-file src="src/android/FileHelper.java" target-dir="src/org/apache/cordova/mediacapture" />
     </platform>

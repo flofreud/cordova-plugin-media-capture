@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Cam2 Picture Playground</string>
+	<string name="app_name_video">Cam2 Video Playground</string>
+	<string name="title_ffc">Use front-facing camera</string>
+	<string name="title_file">Save full image to file</string>
+	<string name="summary_file">If off, captures a thumbnail instead</string>
+	<string name="title_confirm">Show confirmation screen</string>
+	<string name="title_debug">Enable debug mode</string>
+	<string name="take_picture">Take picture</string>
+	<string name="title_update_media_store">Update MediaStore</string>
+	<string name="title_force_classic">Force classic API</string>
+	<string name="title_video">Capture video</string>
+	<string name="title_quality">Record high-quality video</string>
+	<string name="title_bitRate">Set bitrate limit</string>
+	<string name="title_frameRate">Set frame rate limit</string>
+	<string name="title_duration">Set duration limit</string>
+	<string name="title_size">Set size limit</string>
+	<string name="title_mirror_preview">Mirror Preview</string>
+	<string name="title_exact_match">Fail if no camera match</string>
+	<string name="title_focus_mode">Focus Mode</string>
+	<string name="menu_switch_video">Switch to Video</string>
+	<string name="menu_switch_picture">Switch to Picture</string>
+	<string name="title_save_preview">Save preview frame</string>
+
+</resources>

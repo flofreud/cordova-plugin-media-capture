@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <SwitchPreference
+    android:key="ffc"
+    android:title="@string/title_ffc"/>
+  <SwitchPreference
+    android:key="exact_match"
+    android:title="@string/title_exact_match"/>
+  <SwitchPreference
+    android:key="updateMediaStore"
+    android:title="@string/title_update_media_store"/>
+  <SwitchPreference
+    android:key="debug"
+    android:title="@string/title_debug"/>
+  <SwitchPreference
+    android:key="forceClassic"
+    android:title="@string/title_force_classic"/>
+  <SwitchPreference
+    android:key="highQuality"
+    android:title="@string/title_quality"/>
+  <ListPreference
+      android:key="bitRate"
+      android:entries="@array/bitRates"
+      android:entryValues="@array/bitRateValues"
+      android:title="@string/title_bitRate" />
+  <ListPreference
+      android:key="frameRate"
+      android:entries="@array/frameRates"
+      android:entryValues="@array/frameRateValues"
+      android:title="@string/title_frameRate" />
+  <ListPreference
+    android:key="durationLimit"
+    android:entries="@array/durations"
+    android:entryValues="@array/durationValues"
+    android:title="@string/title_duration" />
+  <ListPreference
+    android:key="sizeLimit"
+    android:entries="@array/sizes"
+    android:entryValues="@array/sizeValues"
+    android:title="@string/title_size" />
+  <SwitchPreference
+    android:key="mirrorPreview"
+    android:title="@string/title_mirror_preview"/>
+  <ListPreference
+    android:key="focusMode"
+    android:entries="@array/focusModes"
+    android:entryValues="@array/focusModeValues"
+    android:title="@string/title_focus_mode" />
+
+</PreferenceScreen>
